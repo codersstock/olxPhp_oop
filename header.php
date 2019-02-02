@@ -1,5 +1,5 @@
 <?php
-$title = "PAK Classified";
+
 ?>
 
 <!DOCTYPE html>

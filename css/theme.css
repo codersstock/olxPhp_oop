@@ -19,6 +19,12 @@ li {
   text-transform: uppercase;
 }
 
+.opacity {
+  opacity: 0.95;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 /* ========================= Modal Starts Here  =============
 ============================================================ */
 
@@ -36,41 +42,33 @@ li {
 ======================================================
 =======================================================*/
 
-@media screen and (min-width:400px) and (max-width:590px) {
+@media screen and (min-width: 400px) and (max-width: 590px) {
   .card {
     width: 45% !important;
-
   }
 }
 
-
-@media screen and (max-width:620px) {
+@media screen and (max-width: 620px) {
   .card {
     width: 45%;
-
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .card {
     width: 30%;
-
   }
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width: 769px) {
   .card {
     width: 22%;
-
   }
 }
 
 .card-title {
   margin: -5px 0;
 }
-
-
-
 
 .card {
   padding: 0 !important;
@@ -164,7 +162,8 @@ li {
   max-height: 300px;
 }
 
-.right-bar {}
+.right-bar {
+}
 
 .ad-heading {
   font-size: 17px;
@@ -267,4 +266,29 @@ footer .row .categories li a:hover {
   text-decoration: none;
   color: rgba(0, 47, 58, 0.8);
   font-size: 17px;
+}
+
+/* ================= User profile starts ===================
+========================================================== */
+
+#profile-bar {
+  margin-top: 6em !important;
+}
+.user_profile_info {
+  display: table;
+}
+.user_profile_info p {
+  font-size: 20px;
+}
+.user_profile_info img {
+  background: #f8dd3e;
+}
+
+.user_profile_info {
+  display: table-cell;
+  text-align: center;
+}
+
+.user_accounts p {
+  font-size: 15px;
 }
