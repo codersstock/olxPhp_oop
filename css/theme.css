@@ -1,0 +1,270 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  margin-right: 3px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.display-darkblue {
+  color: rgb(1, 68, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ========================= Modal Starts Here  =============
+============================================================ */
+
+/* Signup Modal */
+.signup_Modal {
+  padding: 20px 30px;
+}
+
+.signup-footer a {
+  font-size: 15px;
+  color: #000;
+}
+
+/* =================== CARD STARTS HERE
+======================================================
+=======================================================*/
+
+@media screen and (min-width:400px) and (max-width:590px) {
+  .card {
+    width: 45% !important;
+
+  }
+}
+
+
+@media screen and (max-width:620px) {
+  .card {
+    width: 45%;
+
+  }
+}
+
+@media screen and (max-width:768px) {
+  .card {
+    width: 30%;
+
+  }
+}
+
+@media screen and (min-width:769px) {
+  .card {
+    width: 22%;
+
+  }
+}
+
+.card-title {
+  margin: -5px 0;
+}
+
+
+
+
+.card {
+  padding: 0 !important;
+  position: relative;
+  margin: 0 0 1em 0;
+  cursor: pointer;
+  border: 1.3px solid lightgray;
+  margin-left: 10px !important;
+}
+
+.card img {
+  padding: 6px;
+}
+
+.card-address {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: bold;
+  float: left;
+  font-size: 20px;
+}
+
+.fav {
+  font-size: 18px;
+  cursor: pointer;
+  float: right;
+  right: 10px;
+  position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+  nav .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav .container {
+    width: 100%;
+  }
+}
+
+.btn_login,
+.btn_login:hover,
+.btn_login:visited,
+.btn_login:link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.btn_search {
+  background: #0083d6;
+  border: none;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.navbar {
+  border-bottom: 3px solid #0083d6;
+}
+
+.search {
+  width: 300px;
+  height: 40px;
+  padding: 2px 10px;
+  color: gray;
+}
+
+#single-card {
+  margin: 5em auto 5em auto !important;
+}
+
+/* ===================== Single Post ==================
+=================================================== */
+
+#post {
+  margin-top: 7em;
+  padding: 0 20px;
+}
+
+.left-bar img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.right-bar {}
+
+.ad-heading {
+  font-size: 17px;
+}
+
+.ad-container {
+  text-align: justify;
+  font-size: 15px;
+  color: rgba(0, 47, 58, 0.87);
+  padding: 20px;
+  border: 1px solid lightgray;
+  margin: 10px 0;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 1.5em;
+  background: rgb(235, 238, 239);
+  border-top: 1px solid grey;
+  width: 100%;
+}
+
+footer .row {
+  padding: 5px 30px 10px 30px;
+}
+
+footer .row .links,
+footer .row .categories,
+footer .row .social {
+  margin-top: 20px;
+}
+
+footer .row .links li a,
+footer .row .categories li a {
+  font-size: 12px;
+  color: grey;
+}
+
+footer .row .links li a:hover,
+footer .row .categories li a:hover {
+  text-decoration: none;
+  color: #404040;
+}
+
+.footer-head {
+  font-size: 14px;
+}
+
+.footer-bottom {
+  margin-top: 16px;
+  background: rgb(1, 68, 110);
+  padding: 10px;
+  display: table;
+  width: 100%;
+  text-align: right;
+}
+
+.footer-bottom p {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.social a {
+  font-size: 20px;
+  width: 40px !important;
+  text-align: center;
+  border-radius: 360px !important;
+}
+
+.social {
+  display: table;
+}
+
+.social .display-center {
+  display: table-cell;
+  text-align: center;
+}
+
+.ad-container .price {
+  font-size: 25px;
+}
+
+.price-btn a {
+  color: rgb(110, 110, 110);
+  font-size: 20px;
+}
+
+/* Seller */
+
+.seller-info img {
+  border: 1px solid grey;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.seller-info .seller a {
+  text-decoration: none;
+  color: rgba(0, 47, 58, 0.8);
+  font-size: 17px;
+}
