@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/slider.css" />
-  <link rel="stylesheet" href="css/fa/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet" />
 </head>
 
@@ -24,14 +24,30 @@
     <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a href="" class="navbar-brand">VLX Pakistan Market Place</a>
+    <a href="index.php" class="navbar-brand">VLX Pakistan Market Place</a>
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mx-auto">
         <form class="form-inline">
-          <a href="#" class="mr-sm-4 btn_login">
+         <li>
+          <a href="#" class="mr-sm-4 btn_login btn_cat">
             <i class="fa fa-car"></i> Categories</a>
-
+            <div class="CatDropDown">
+              
+            <ul>
+            <li><a href=""><i class="fa fa-bikes"></i>Bikes</a></li>
+            <li><a href=""><i class="fa fa-car"></i>Cars</a></li>
+            <li><a href=""><i class="fas fa-user-tie"></i>Fashion & Beauty</a></li>
+            <li><a href=""><i class="fa fa-mobile"></i>Mobile Phones</a></li>
+            <li><a href=""><i class="fa fa-baby"></i>Kids</a></li>
+           <li><a href=""><i class="fa fa-wrench"></i>Services</a></li>
+            </ul>
+            </div>
+          
+            
+            
+            
+            </li>
           <input type="text" class="search" autofocus placeholder="Find Cars, Mobile Phones and more..." />
           <button class="btn_search"><i class="fa fa-search"></i></button>
 
