@@ -1,0 +1,83 @@
+.Wechat {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  height: 300px;
+  width: 250px;
+  background: #fff;
+  overflow-x: hidden;
+  display: none;
+}
+
+.chat_head {
+  border-radius: 5px 5px 0px 0px;
+  background: #d35400;
+  padding: 5px 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.chat_head p {
+  font-size: 17px;
+}
+
+.chat_head p:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  border-radius: 360px;
+  background: #2ecc71;
+  width: 10px;
+  height: 10px;
+}
+
+.chat_head a {
+  text-decoration: none;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #fff;
+}
+
+.chat_body {
+  height: 300px;
+}
+
+.message_body {
+  padding: 0px 15px;
+}
+
+.msg-a {
+  margin: 5px 5px 5px 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #99ffcc;
+}
+.msg-a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: transparent #99ffcc transparent transparent;
+  left: 15px;
+}
+
+.msg-b {
+  margin: 5px 5px 5px 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #ffff99;
+}
+.msg-b:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-color: transparent transparent transparent #ffff99;
+  right: 0px;
+  margin-top: 2px;
+}

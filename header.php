@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/slider.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet" />
+  <link rel="stylesheet" href="css/chat.ui.css">
+
 </head>
 
 <body>

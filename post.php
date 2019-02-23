@@ -7,6 +7,7 @@ require_once "header.php";
   <div class="row">
     <div class="col-md-8 left-bar">
 
+
       <!-- ================= Post Gallery Slider Starts  ==================
 ==================================================================== -->
       <div class="ad-container" id="Imageslider">
@@ -57,8 +58,8 @@ require_once "header.php";
       <div class="ad-container">
         <p class="price text-left display-darkblue">RS 1250000</p>
         <div class="price-btn text-right">
-          <a href=""><i class="fa fa-share-alt"></i></a>
-          <a href=""><i class="fa fa-heart"></i></a>
+          <a href="" class=""><i class="fa fa-share-alt"></i></a>
+          <a href="javascript:void(0)" id="heart-fav"><i class="fa fa-heart"></i></a>
           <br><br><br><span class="text-center">HP Omen Gaming Desktop</span>
           <p class="timestamp text-right mt-3">02 June</p>
         </div><br>
@@ -94,6 +95,30 @@ require_once "header.php";
     </div>
   </div>
 </section>
+
+<div class="Wechat">
+  <div class="chat_head">
+   <p class="ml-3">Mujeeb Khan</p> 
+   <a href="javascript:void()" class="closeChat text-white">X</a>
+  </div>
+
+
+  <div class="chat_body">
+<div class="message_body">
+<div class="msg-a">this is from a</div>
+<div class="msg-b">this is from b</div>
+</div>
+
+
+  </div>
+<!-- Chat body ends here -->
+
+
+
+</div>
+
+
+
 </body>
 <!-- ///////////////////////////// Post Ends Here 
 //////////////////////////////////////////////////////////////-->

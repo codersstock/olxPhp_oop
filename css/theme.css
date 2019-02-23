@@ -190,6 +190,10 @@ li {
 /* ===================== Single Post ==================
 =================================================== */
 
+.red-heart {
+  color: #ff5d2d !important;
+}
+
 #post {
   margin-top: 7em;
   padding: 0 20px;
@@ -223,6 +227,8 @@ footer {
   background: rgb(235, 238, 239);
   border-top: 1px solid grey;
   width: 100%;
+  position: relative;
+  z-index: -1;
 }
 
 footer .row {
@@ -329,4 +335,11 @@ footer .row .categories li a:hover {
 
 .user_accounts p {
   font-size: 15px;
+}
+
+/* ==================== Chat Starts Here =================================
+========================================================================= */
+
+.chat {
+  cursor: pointer;
 }

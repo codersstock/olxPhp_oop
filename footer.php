@@ -67,5 +67,6 @@
     <script src="js/tether.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/chat.script.js"></script>
   </body>
 </html>

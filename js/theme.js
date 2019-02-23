@@ -16,6 +16,10 @@ $(document).ready(function() {
   $("section").click(function() {
     $(".CatDropDown").fadeOut("fast", "swing");
   });
+
+  $("#heart-fav").click(function() {
+    $(this).toggleClass("red-heart");
+  });
 });
 
-var chatButton = document.getElementsByClassName("chat");
+//var chatButton = document.getElementsByClassName("chat");
